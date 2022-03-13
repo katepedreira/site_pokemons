@@ -1,0 +1,88 @@
+body {
+    background-color: rgb(228, 228, 144);
+}
+
+.titulo-img {
+    text-align: center;
+    background: url(https://www.webfx.com/blog/images/assets/images.sixrevisions.com/2010/03/22-02_css_background.jpg);
+    padding: 35px 0;
+    display: block;
+    background-size: cover;
+}
+
+.button-home {
+    color: rgb(63, 58, 58);
+    background-color: transparent;
+    font-size: 30px;
+    border-radius: 10px;
+    margin-left: 10%;
+    margin-top: 9%;
+}
+
+.button-home:hover {
+    color: rgb(44, 110, 172);
+    background-color: rgb(245, 205, 59);
+}
+
+
+
+.charmeleon-img {
+    background-color: rgb(228, 228, 144);
+    border-radius: 5px;
+    position: relative;
+    display: inline-block;
+    padding: 5%;
+    left: 10%;
+}
+
+.caixa-charmeleon {
+    position: absolute;
+    right: 15%;
+    margin-top: 50%;
+    height: 40%;
+    padding: 4%;
+    background: green;
+    opacity: 0.8;
+    border: 5px solid blue;
+    border-radius: 40px;
+    padding: 4%;
+    top: 70%;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.caixa-charmeleon h1 {
+    font-family: roboto;
+    align-items: center;
+    text-align: center;
+    margin-top: -10%;
+
+}
+
+.caixa-charmeleon h2 {
+    font-family: roboto;
+    font-size: 23px;
+    text-align: justify;
+    margin-top: 10%;
+    
+}
+
+.material-icons.icon-md-1 {
+    top: 75%;
+    position: absolute;
+    right: 0;  
+    
+}
+
+.material-icons.icon-md-2 {
+    top: 75%;
+    position: absolute;
+    left: 0; 
+}
+
+footer {
+    text-align: center;
+    background: url(https://blog.andersonferro.com.br/wp-content/uploads/2014/12/footer-background-01.jpg);
+    padding: 35px 0;
+    display: block;
+}
